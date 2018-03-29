@@ -18,7 +18,7 @@ class Lab2
 		}
 		catch(Exception e)
 		{
-			System.out.println(e.toString());
+			System.out.println(e.getMessage());
 			System.exit(1);
 		}
 		System.out.println(sb.toString());
